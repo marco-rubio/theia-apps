@@ -45,6 +45,8 @@ RUN set -ex \
     C4F0DFFF4E8C1A8236409D08E73BC641CC11F4C8 \
     DD8F2338BAE7501E3DD5AC78C273792F7D83545D \
     A48C2BEE680E841632CD4E44F07496B3EB3C1762 \
+    1C050899334244A8AF75E53792EF661D867B9DFA \
+    C82FA3AE1CBEDC6BE46B9360C43CEC45C17AB93C \
     ; do \
     gpg --batch --keyserver ipv4.pool.sks-keyservers.net --recv-keys "$key" || \
     gpg --batch --keyserver pool.sks-keyservers.net --recv-keys "$key" || \
